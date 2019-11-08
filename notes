@@ -1,0 +1,63 @@
+Create your Wireframes for your website
+
+- Landing page
+- About us page
+- Gallery page
+- Contact Us page
+- Additional Features Page
+
+You may use wireframe.cc or black pen & paper
+
+
+CAPSTONE 1 Requirements
+
+*Online Portfolio
+- 1 page
+- responsive design
+- email
+- name
+- picture
+- link to your capstone 1 project
+- skills
+- social links
+
+Capstone 1
+- max of 5 pages (link, additional features of your website)
+- min of 4 pages
+- no templates (na galing sa ibang website)
+- responsive design (3 devices, mobile, tablet & desktop -> vice versa)
+- all pages should have navbar and footer
+- NO DEAD LINKS
+- social links
+- no internal and inline css
+- dont make a "bootstrap website"
+- no pixelated/streched images 
+- write a disclamer section html
+- NO HORIZONTAL SCROLL
+your-website-name 
+
+Create your folders and files
+- index.html -> html stucture, link your bootstrap css, style.css, jquery, popper js, bootstrap js, google fonts, fontawesome
+-> Nav-bar
+-> links (Home, About, Gallery, Feature 1 and 2)
+-> Footer (Copyright disclaimer)
+-> Content 
+-> Container - Row - Columns
+-> Image for landing page
+-> Color palette
+-> font family
+
+- assets
+- css
+- bootstrap css
+- style.css
+- js
+- bootstrap js
+- jquery
+- popper js
+- images
+- about-us.html -> html stucture, link your bootstrap css, style.css, jquery, popper js, bootstrap js, google fonts, fontawesome
+- gallery.html -> html stucture, link your bootstrap css, style.css, jquery, popper js, bootstrap js, google fonts, fontawesome
+- contact-us.html -> html stucture, link your bootstrap css, style.css, jquery, popper js, bootstrap js, google fonts, fontawesome
+- feature-1.html -> html stucture, link your bootstrap css, style.css, jquery, popper js, bootstrap js, google fonts, fontawesome
+- feature-2.html -> html stucture, link your bootstrap css, style.css, jquery, popper js, bootstrap js, google fonts, fontawesome
