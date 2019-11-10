@@ -124,3 +124,15 @@ h3{
 	from {color: #fff;}
 	to {color: pink;}
 }
+
+.recipe , .info , .card{
+	background-color: rgba(255,255,255,.5);
+	border: 1px solid #ececec;
+}
+
+
+.recipe .list-group-item { /*, */
+	background-color: inherit !important;
+	border-color: rgba(0,0,0,.1);
+}
+
