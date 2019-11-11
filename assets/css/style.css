@@ -2,6 +2,75 @@
 
 }
 
+#logo-holder{
+
+}
+
+.landing_logo{
+
+	color: #d02952 !important;
+	font-size: 200px !important;
+	position: absolute;
+	left: calc(50% - 100px);
+	top: calc(40vh - 100px);
+	animation: landing_logo 2s infinite;
+}
+
+
+.landing_btn{
+	position: absolute;
+	/*left: 80%;*/
+	top: 60vh;
+	/*display: block;*/
+	left: calc(50% - 100px);
+	margin: 0 auto;
+	width: 200px;
+	font-size: 2rem;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes landing_logo {
+	0% { 
+		-ms-transform: rotate(20deg); /* IE 9 */
+	  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+	  transform: rotate(20deg);
+		opacity:1;
+	 }
+	50% { 
+		-ms-transform: rotate(-20deg); /* IE 9 */
+	  -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+	  transform: rotate(-20deg);
+	 		opacity:0.6;
+	}
+	100% { 
+		-ms-transform: rotate(20deg); /* IE 9 */
+	  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+	  transform: rotate(20deg);
+		opacity:1;
+	 }
+}
+
+/* Standard syntax */
+@keyframes landing_logo {
+	0% { 
+		-ms-transform: rotate(20deg); /* IE 9 */
+	  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+	  transform: rotate(20deg);
+		opacity:1;
+	 }
+	50% { 
+		-ms-transform: rotate(-20deg); /* IE 9 */
+	  -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+	  transform: rotate(-20deg);
+	 		opacity:0.6;
+	}
+	100% { 
+		-ms-transform: rotate(20deg); /* IE 9 */
+	  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+	  transform: rotate(20deg);
+		opacity:1;
+	 }
+}
 
 body{
 	background-color: #ffffff;
@@ -136,3 +205,8 @@ h3{
 	border-color: rgba(0,0,0,.1);
 }
 
+.nav-link:hover{
+	/*color: red !important;*/
+	text-decoration: underline;
+
+}
